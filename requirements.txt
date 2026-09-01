@@ -1,0 +1,34 @@
+# Core inference engine
+vllm>=0.5.0
+
+# HuggingFace ecosystem
+huggingface-hub>=0.23.0
+transformers>=4.42.0
+datasets>=2.19.0
+tokenizers>=0.19.0
+
+# HTTP client for experiment runner
+httpx>=0.27.0
+aiohttp>=3.9.0
+openai>=1.30.0
+
+# Packet analysis
+scapy>=2.5.0
+dpkt>=1.9.8
+pyshark>=0.6
+
+# Data analysis and statistics
+numpy>=1.26.0
+pandas>=2.2.0
+scipy>=1.13.0
+scikit-learn>=1.5.0
+
+# Plotting
+matplotlib>=3.9.0
+seaborn>=0.13.0
+
+# Utilities
+tqdm>=4.66.0
+rich>=13.7.0
+click>=8.1.0
+python-dotenv>=1.0.0
