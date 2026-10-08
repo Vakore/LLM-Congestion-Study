@@ -1,0 +1,36 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Models (large binary files)
+models/
+
+# Raw data
+data/sharegpt_clean.json
+data/*.json
+
+# Results (regeneratable)
+results/traces/*.pcap
+results/plots/*.png
+results/*.json
+
+# Keep directory structure
+!results/.gitkeep
+!results/traces/.gitkeep
+!results/plots/.gitkeep
+!data/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.pcap
+*.zip
+models/
+.venv/

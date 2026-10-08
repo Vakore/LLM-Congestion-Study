@@ -1,5 +1,5 @@
 # LLM Inference Traffic Characterization for Congestion Control
-### M.S. Computer Science, William & Mary - Fall 2026
+### Augustine Hart — M.S. Computer Science, William & Mary — Fall 2026
 
 This repository contains all scripts, instructions, and analysis code for the
 research project: *Characterizing LLM Inference Traffic for Congestion Control:
@@ -26,12 +26,12 @@ A Measurement and Gap Analysis Study.*
 
 ## 1. System Requirements
 
-| Component | Minimum | Used Hardware |
+| Component | Minimum | Your Hardware |
 |---|---|---|
 | GPU | 8 GB VRAM | ASUS ROG Zephyrus G14 (RTX 4060/4070 Mobile) |
-| RAM | 16 GB | 16 GB |
-| Disk | 30 GB free | 50GB |
-| OS | Ubuntu 22.04 LTS | WSL2 (see note below) |
+| RAM | 16 GB | 16–32 GB |
+| Disk | 30 GB free | — |
+| OS | Ubuntu 22.04 LTS | Native or WSL2 (see note below) |
 | CUDA | 12.1+ | — |
 | Python | 3.10–3.12 | — |
 
@@ -69,7 +69,7 @@ passwd: password updated successfully
 To run a command as administrator (user "root"), use "sudo <command>".
 See "man sudo_root" for details.
 
-default@User:/mnt/c/WINDOWS/system32$
+default@Austin:/mnt/c/WINDOWS/system32$
 
 default, default
 ```
