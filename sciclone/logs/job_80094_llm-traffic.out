@@ -1,0 +1,6 @@
+Starting job: concurrency=1, class=short
+Node: gu05.sciclone.wm.edu
+Time: Sat Sep 26 15:28:33 EDT 2026
+vLLM server PID: 1922661
+Waiting for server...
+ERROR: Server failed to start
